@@ -106,7 +106,7 @@
 
 | | **DSL ANALYSER V1.0** | **DSL ANALYSER V2.0** | **FTTH ANALYSER V1.0** |
 |---|---|---|---|
-| **المجلد / البرومبت** | `DSL ANALYSER V1.0/DSL ANALYSER V1.0.md` (979 سطر / 33 قسم) | `DSL ANALYSER V2.0/DSL ANALYSER V2.0.md` (9744 سطر / دمج 8 ملفات PART 1/8–8/8) | `FTTH ANALYSER V1.0/FTTH ANALYSER V1.0.md` (603 سطر / 16 قسم) |
+| **المجلد / البرومبت** | `DSL ANALYSER V1.0/DSL ANALYSER V1.0.md` (490 سطر / 33 قسم) | `DSL ANALYSER V2.0/DSL ANALYSER V2.0.md` (6929 سطر / دمج 8 ملفات PART 1/8–8/8) | `FTTH ANALYSER V1.0/FTTH ANALYSER V1.0.md` (318 سطر / 16 قسم) |
 | **النوع** | نحاس: ADSL/ADSL2/2+ / VDSL/VDSL2 / DSLAM/MSAN | نحاس: نفس V1.0 + طبقات متقدمة Master All-in-One | فايبر فقط: FTTH / GPON/EPON / XG(S)-PON / OLT/ONT/ONU |
 | **نمط التشغيل** | مباشر: الصق → أرسل صورة → تقرير | مباشر **أو** تفاعلي بالقائمة (`main/menu/القائمة`) | تفاعلي بالقائمة (`main/menu/القائمة` + `optical/ont/olt/speed/fiber/device/wan/info/all`) |
 | **أهم القدرات** | جدول 20+ خاصية، Headroom، تقييم ملاءمة السرعة، خلاصة، قرار فني 6 نقاط | كل V1.0 + أقسام 35–48: Spectrum/Tone، Crosstalk، Impulse Noise، Fault Isolation، Capacity، Trend قبل/بعد، Router HW، Confidence، Decision Tree، تقرير ISP للتصعيد | إشارة ضوئية TX/RX بالمرجعية، ONT (جهد/تيار/حرارة)، OLT/PON، فحص كابل/تركيب بالصور، سرعة + Bufferbloat، معلومات الجهاز والتسجيل (O5)، إحصائيات WAN والأخطاء، سبب جذري من 10 فئات، تقرير A→I، حكم من 8 مستويات |
@@ -157,13 +157,13 @@ dsl-line-quality-analyzer/
 ├── README.md                          # هذا الملف — الدليل الرئيسي: معلومات + كيف يساعد + طريقة استخدام الكل
 ├── image.png                          # صورة الغلاف / توضيحية للمشروع
 ├── DSL ANALYSER V1.0/
-│   ├── DSL ANALYSER V1.0.md           # برومبت DSL الأساسي (979 سطر / 33 قسم) — انسخه كاملاً
+│   ├── DSL ANALYSER V1.0.md           # برومبت DSL الأساسي (490 سطر / 33 قسم) — انسخه كاملاً
 │   └── README.md                      # شرح V1.0 المطابق لمحتوى البرومبت الخاص به
 ├── DSL ANALYSER V2.0/
-│   ├── DSL ANALYSER V2.0.md           # برومبت DSL الشامل (9744 سطر — دمج 8 ملفات) — انسخه كاملاً
+│   ├── DSL ANALYSER V2.0.md           # برومبت DSL الشامل (6929 سطر — دمج 8 ملفات) — انسخه كاملاً
 │   └── README.md                      # شرح V2.0 المطابق لمحتوى البرومبت الخاص به
 └── FTTH ANALYSER V1.0/
-    ├── FTTH ANALYSER V1.0.md          # برومبت الفايبر (603 سطر / 16 قسم) — انسخه كاملاً
+    ├── FTTH ANALYSER V1.0.md          # برومبت الفايبر (318 سطر / 16 قسم) — انسخه كاملاً
     └── README.md                      # شرح FTTH المطابق لمحتوى البرومبت الخاص به
 ```
 
@@ -243,7 +243,7 @@ DSL Uptime: 24 hours
 ### استخدام DSL ANALYSER V2.0
 
 1. انسخ `DSL ANALYSER V2.0/DSL ANALYSER V2.0.md` كاملاً → الصقه.
-2. **تفاعلي (مفضّل):** اكتب `main` واختر (فحص سريع/شامل/متقدم/مقارنة/تقرير ISP)، ثم أرسل المطلوب (صور + قراءة ثانية + Speedtest + موديل/Firmware).
+2. **تفاعلي (مفضّل):** القائمة تظهر تلقائياً فور اللصق — اختر (فحص سريع/شامل/متقدم/مقارنة/تقرير ISP)، ثم أرسل المطلوب (صور + قراءة ثانية + Speedtest + موديل/Firmware).
 3. **مباشر:** ارفع الصورة فوراً بدون `main` فيعمل التسلسل الكامل.
 4. للنتيجة القصوى: أرسل قراءتين مؤرختين لتفعيل Trend وBefore/After + تقرير ISP.
 5. التفاصيل الكاملة: `DSL ANALYSER V2.0/README.md`.

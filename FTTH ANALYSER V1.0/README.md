@@ -1,7 +1,7 @@
 # FTTH ANALYSER V1.0
 
 > مهندس تحليل وتشخيص شبكات الفايبر FTTH — الإصدار الاحترافي
-> **المجلد:** `FTTH ANALYSER V1.0/` — **ملف البرومبت:** `FTTH ANALYSER V1.0/FTTH ANALYSER V1.0.md` (603 سطر — 16 قسم)
+> **المجلد:** `FTTH ANALYSER V1.0/` — **ملف البرومبت:** `FTTH ANALYSER V1.0/FTTH ANALYSER V1.0.md` (318 سطر — 16 قسم)
 
 ## 📌 ما هو هذا الإصدار؟
 
@@ -20,7 +20,7 @@
 
 ```
 FTTH ANALYSER V1.0/
-├── FTTH ANALYSER V1.0.md   # البرومبت الرئيسي FTTH V1.0 — انسخه كاملاً (603 سطر / 16 قسم)
+├── FTTH ANALYSER V1.0.md   # البرومبت الرئيسي FTTH V1.0 — انسخه كاملاً (318 سطر / 16 قسم)
 └── README.md               # هذا الملف — شرح FTTH ANALYSER V1.0 المطابق لمحتوى البرومبت الخاص به
 ```
 

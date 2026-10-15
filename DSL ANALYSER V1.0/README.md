@@ -1,7 +1,7 @@
 # DSL ANALYSER V1.0
 
 > محلل خطوط DSL / ADSL / VDSL الاحترافي — الإصدار الأساسي
-> **المجلد:** `DSL ANALYSER V1.0/` — **ملف البرومبت:** `DSL ANALYSER V1.0/DSL ANALYSER V1.0.md` (979 سطر — 33 قسم)
+> **المجلد:** `DSL ANALYSER V1.0/` — **ملف البرومبت:** `DSL ANALYSER V1.0/DSL ANALYSER V1.0.md` (490 سطر — 33 قسم)
 
 ## 📌 ما هو هذا الإصدار؟
 
@@ -20,7 +20,7 @@
 
 ```
 DSL ANALYSER V1.0/
-├── DSL ANALYSER V1.0.md   # البرومبت الرئيسي V1.0 — انسخه كاملاً (979 سطر / 33 قسم)
+├── DSL ANALYSER V1.0.md   # البرومبت الرئيسي V1.0 — انسخه كاملاً (490 سطر / 33 قسم)
 └── README.md              # هذا الملف — شرح DSL ANALYSER V1.0 المطابق لمحتوى البرومبت الخاص به
 ```
 
@@ -63,7 +63,7 @@ Sync Rate • SNR Margin • Attenuation • CRC • FEC • Uptime • Attainab
 
 ## 🚀 طريقة الاستخدام خطوة بخطوة (V1)
 
-1. افتح `DSL ANALYSER V1.0/DSL ANALYSER V1.0.md` وانسخ محتواه كاملاً (979 سطر — لا تختصر).
+1. افتح `DSL ANALYSER V1.0/DSL ANALYSER V1.0.md` وانسخ محتواه كاملاً (490 سطر — لا تختصر).
 2. الصقه في الشات كأول رسالة، وأضف سطر:
 ```
 سأرسل لك الآن صورة بيانات الخط لتحليلها
