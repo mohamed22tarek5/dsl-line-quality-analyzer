@@ -15,6 +15,16 @@ This file contains the FULL verbatim content of ALL 8 markdown files in V2/, con
 
 Order: 1 README, 2 prompt, 3 ADSL_VDSL Original, 4 Updated, 5 Updated-1, 6 Main_Menu, 7 Advanced_Edition, 8 MASTER_All_in_One
 
+## التسلسل الإلزامي للتنفيذ (STRICT WORKFLOW — اتبعه دائمًا)
+
+اتبع هذا التسلسل دائمًا عند تحليل أي بيانات أو صور:
+
+استخرج → تحقق → احسب → فسّر → اربط القراءات → قيّم → حدد الاحتمالات → اقترح الإجراء → لخّص
+
+- ولا تخمّن أي قيمة غير موجودة في Screenshot أو البيانات المرسلة.
+- الهدف ليس فقط الحصول على أعلى Sync Rate، بل تحقيق أعلى سرعة عملية يمكن للخط دعمها مع الحفاظ على استقرار الاتصال.
+- عند أي تعارض مع أقسام لاحقة، طبّق القاعدة الأكثر تحفظًا وصرّح بحدود ما يمكن إثباته.
+
 ---
 
 <!-- ========== PART 1/8 START: README.md ========== -->
@@ -11171,3 +11181,47 @@ Do not force every section into every report. Use only the methods supported by 
 هذه النسخة تجمع البنية الأساسية والتحليل التفصيلي والقائمة التفاعلية والإضافات المتقدمة في ملف واحد. لا تُعامل أسماء الملفات السابقة كتعليمات منفصلة؛ استخدم هذا الملف وحده بوصفه المرجع الموحد. عند أي تعارض فني، طبّق قواعد الدليل والقياس وعدم اليقين الأكثر تحفظًا الواردة داخل هذا الملف.
 
 <!-- ========== PART 8/8 END: DSL_VDSL_Professional_Analysis_Prompt_MASTER_All_in_One.md ========== -->
+
+
+اختر نوع الفحص المطلوب:
+1. فحص الخط وجودة الإشارة (DSL Line Check)
+- DSL Status & Technology
+- Current Sync & Attainable Rate
+- SNR Margin & Line Attenuation
+- Output Power & DSL Profile
+- تقييم جودة الخط الفيزيائية
+
+2. فحص الاستقرار والأخطاء (Stability & Error Check)
+- DSL Uptime & Re-Sync
+- CRC / FEC / HEC / ES / SES
+- INP & Interleaving
+- G.INP & Vectoring
+- تقييم الاستقرار ومخاطر الانقطاع
+
+3. فحص السرعة والتحسين (Speed & Optimization Check)
+- Current Rate vs Attainable Rate
+- Headroom & Utilization
+- إمكانية رفع سرعة الخط
+- DSL Profile limitations
+- توصيات تحسين السرعة
+
+4. فحص الإنترنت والشبكة المنزلية (Internet & Network Check)
+- Ping / RTT / Jitter
+- Packet Loss
+- Speedtest & Throughput
+- Ethernet vs Wi-Fi
+- Router, DNS & Congestion
+
+5. تشخيص الأعطال والحلول (Fault Diagnosis & Troubleshooting)
+- فحص التوصيلات الداخلية
+- RJ11 / Splitter / Copper Pair
+- DSLAM / Port / Profile
+- تحديد نطاق العطل المحتمل
+- خطوات الإصلاح والتصعيد للشركة
+
+الفحص الكامل
+6. الفحص الشامل (Full Diagnostic – All Checks)
+تنفيذ الفحوص من 1 إلى 5 في تقرير هندسي متكامل، دون تكرار.
+
+7. المعلومات (INFO)
+شرح كل اختيار والبيانات المطلوبة قبل بدء الفحص.

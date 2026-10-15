@@ -106,10 +106,10 @@
 
 | | **DSL ANALYSER V1.0** | **DSL ANALYSER V2.0** | **FTTH ANALYSER V1.0** |
 |---|---|---|---|
-| **المجلد / البرومبت** | `DSL ANALYSER V1.0/DSL ANALYSER V1.0.md` (2300 سطر / 34 قسم) | `DSL ANALYSER V2.0/DSL ANALYSER V2.0.md` (11173 سطر / دمج 8 ملفات PART 1/8–8/8) | `FTTH ANALYSER V1.0/FTTH ANALYSER V1.0.md` (710 أسطر / 13 قسم) |
+| **المجلد / البرومبت** | `DSL ANALYSER V1.0/DSL ANALYSER V1.0.md` (2300 سطر / 34 قسم) | `DSL ANALYSER V2.0/DSL ANALYSER V2.0.md` (11183 سطر / دمج 8 ملفات PART 1/8–8/8) | `FTTH ANALYSER V1.0/FTTH ANALYSER V1.0.md` (806 سطر / 16 قسم) |
 | **النوع** | نحاس: ADSL/ADSL2/2+ / VDSL/VDSL2 / DSLAM/MSAN | نحاس: نفس V1.0 + طبقات متقدمة Master All-in-One | فايبر فقط: FTTH / GPON/EPON / XG(S)-PON / OLT/ONT/ONU |
-| **نمط التشغيل** | مباشر: الصق → أرسل صورة → تقرير | مباشر **أو** تفاعلي بالقائمة (`main/menu/القائمة`) | تفاعلي بالقائمة (`main/menu/القائمة` + `optical/ont/olt/speed/fiber/info/all`) |
-| **أهم القدرات** | جدول 20+ خاصية، Headroom، قرار رفع (1 من 3)، خلاصة، قرار فني 6 نقاط | كل V1.0 + أقسام 35–48: Spectrum/Tone، Crosstalk، Impulse Noise، Fault Isolation، Capacity، Trend قبل/بعد، Router HW، Confidence، Decision Tree، تقرير ISP للتصعيد | إشارة ضوئية TX/RX بالمرجعية، ONT (جهد/تيار/حرارة)، OLT/PON، فحص كابل/تركيب بالصور، سرعة + Bufferbloat، سبب جذري من 10 فئات، تقرير A→I، حكم من 8 مستويات |
+| **نمط التشغيل** | مباشر: الصق → أرسل صورة → تقرير | مباشر **أو** تفاعلي بالقائمة (`main/menu/القائمة`) | تفاعلي بالقائمة (`main/menu/القائمة` + `optical/ont/olt/speed/fiber/device/wan/info/all`) |
+| **أهم القدرات** | جدول 20+ خاصية، Headroom، قرار رفع (1 من 3)، خلاصة، قرار فني 6 نقاط | كل V1.0 + أقسام 35–48: Spectrum/Tone، Crosstalk، Impulse Noise، Fault Isolation، Capacity، Trend قبل/بعد، Router HW، Confidence، Decision Tree، تقرير ISP للتصعيد | إشارة ضوئية TX/RX بالمرجعية، ONT (جهد/تيار/حرارة)، OLT/PON، فحص كابل/تركيب بالصور، سرعة + Bufferbloat، معلومات الجهاز والتسجيل (O5)، إحصائيات WAN والأخطاء، سبب جذري من 10 فئات، تقرير A→I، حكم من 8 مستويات |
 | **الشرح الكامل** | `DSL ANALYSER V1.0/README.md` | `DSL ANALYSER V2.0/README.md` | `FTTH ANALYSER V1.0/README.md` |
 
 ## 🎯 أي إصدار تختار؟
@@ -144,7 +144,7 @@
 
 **الملف:** `FTTH ANALYSER V1.0/FTTH ANALYSER V1.0.md` — **الشرح الكامل:** `FTTH ANALYSER V1.0/README.md`
 
-- **المحتوى:** 13 قسماً بدور Senior Fiber Engineer: قائمة 7 بنود (إشارة ضوئية / ONT / OLT-PON / سرعة / تركيب / شامل / معلومات) + تحليل TX/RX مقابل مرجعية الجهاز + ONT (جهد/تيار/حرارة بتصنيف طبيعي→حرج) + OLT/PON (`--` = غير متاح وليس عطلاً) + فحص كابل/تركيب من الصور (عيوب مؤكدة/مخاطر/غير قابل للتحقق + تحذير ليزر) + سرعة (نسب تحقيق الباقة + Loaded Latency + Bufferbloat) + سبب جذري من 10 فئات + تقرير A→I + حكم من 8 مستويات.
+- **المحتوى:** 16 قسماً بدور Senior Fiber Engineer: قائمة 9 بنود (إشارة ضوئية / ONT / OLT-PON / سرعة / تركيب / شامل / معلومات / معلومات الجهاز / إحصائيات WAN) + تحليل TX/RX مقابل مرجعية الجهاز + ONT (جهد/تيار/حرارة بتصنيف طبيعي→حرج) + OLT/PON (`--` = غير متاح وليس عطلاً) + فحص كابل/تركيب من الصور (عيوب مؤكدة/مخاطر/غير قابل للتحقق + تحذير ليزر) + سرعة (نسب تحقيق الباقة + Loaded Latency + Bufferbloat) + سبب جذري من 10 فئات + تقرير A→I + حكم من 8 مستويات + منهجية عمل إلزامية (استخرج → تحقق → احسب → فسّر → اربط → قيّم → حدد الاحتمالات → اقترح → لخّص).
 - **يساعدك عندما:** أي خط FTTH/GPON — بطء، فصل، Ping، شك في الإشارة أو التركيب أو ONT أو ISP.
 - **مخرجاته:** جدول TX/RX + حالة ONT + OLT/PON + نسب السرعة + تركيب + أسباب مرتبة + توصيات + حكم نهائي.
 
@@ -160,10 +160,10 @@ dsl-line-quality-analyzer/
 │   ├── DSL ANALYSER V1.0.md           # برومبت DSL الأساسي (2300 سطر / 34 قسم) — انسخه كاملاً
 │   └── README.md                      # شرح V1.0 المطابق لمحتوى البرومبت الخاص به
 ├── DSL ANALYSER V2.0/
-│   ├── DSL ANALYSER V2.0.md           # برومبت DSL الشامل (11173 سطر — دمج 8 ملفات) — انسخه كاملاً
+│   ├── DSL ANALYSER V2.0.md           # برومبت DSL الشامل (11183 سطر — دمج 8 ملفات) — انسخه كاملاً
 │   └── README.md                      # شرح V2.0 المطابق لمحتوى البرومبت الخاص به
 └── FTTH ANALYSER V1.0/
-    ├── FTTH ANALYSER V1.0.md          # برومبت الفايبر (710 أسطر / 13 قسم) — انسخه كاملاً
+    ├── FTTH ANALYSER V1.0.md          # برومبت الفايبر (806 سطر / 16 قسم) — انسخه كاملاً
     └── README.md                      # شرح FTTH المطابق لمحتوى البرومبت الخاص به
 ```
 
@@ -174,7 +174,7 @@ dsl-line-quality-analyzer/
 ## 🛠️ المتطلبات العامة
 
 1. **لنحاس (V1.0 / V2.0):** راوتر DSL/VDSL + الدخول لصفحته (غالباً `192.168.1.1`).
-2. **لفايبر (FTTH):** ONT/ONU + راوتر + صفحة Optical/ONT/OLT Information.
+2. **لفايبر (FTTH):** ONT/ONU (صفحته غالباً `192.168.100.1`) + راوتر (غالباً `192.168.1.1`) + صفحة Optical/ONT/OLT Information.
 3. حساب ذكاء اصطناعي يدعم الصور: ChatGPT (GPT-4o+) / Claude / Gemini / Copilot / DeepSeek.
    - V2.0 الأضخم → يفضّل نموذج بسياق طويل. لو النموذج ضعيف استخدم V1.0.
 4. البرومبت المناسب + Screenshot واضح.
@@ -254,7 +254,7 @@ DSL Uptime: 24 hours
 2. اختر بالرقم/الاسم:
 
 ```
-all/full/الكل=شامل | optical=إشارة | ont=جهاز | olt=OLT/PON | speed=سرعة | fiber=تركيب | info=شرح
+all/full/الكل=شامل | optical=إشارة | ont=جهاز | olt=OLT/PON | speed=سرعة | fiber=تركيب | device=معلومات الجهاز | wan=إحصائيات WAN | info=شرح
 ```
 
 3. أرسل: صور Optical (مع المرجعية) + Speedtest سلكي + سرعة الباقة + صور الكابل/ONT + وصف المشكلة.
@@ -284,7 +284,7 @@ Speedtest (wired): Down ... / Up ... / Ping ... / Loaded ... / Jitter ...
 | ASUS | `System Log → DSL Log` |
 | أي VDSL | ابحث عن `Broadband, Line Rate, SNR Margin, Attenuation, DSL Uptime, Counters, Statistics` |
 
-**FTTH:** صفحة ONT/الراوتر → ابحث عن `Optical Info / ONT Information / OLT Information / PON Status / Fiber Status` → قيم `TX/RX dBm • Voltage • Bias • Temp • Module • PON Port` **مع المرجعية**. وللسرعة: جهاز واحد بكابل Ethernet مباشرة بدون تحميلات، وسجّل Down/Up/Ping/Loaded/Jitter/السيرفر/نوع الاتصال.
+**FTTH:** المتصفح → `192.168.100.1` (صفحة ONT في Huawei/ZTE غالباً) أو `192.168.1.1` (صفحة الراوتر) → ابحث عن `Optical Info / ONT Information / OLT Information / PON Status / Fiber Status` → قيم `TX/RX dBm • Voltage • Bias • Temp • Module • PON Port` **مع المرجعية**. وللسرعة: جهاز واحد بكابل Ethernet مباشرة بدون تحميلات، وسجّل Down/Up/Ping/Loaded/Jitter/السيرفر/نوع الاتصال.
 
 **جودة الصورة = جودة التحليل:** متصفح كمبيوتر + تكبير `Ctrl +` + جدول كامل Down+Up + إخفاء IP/يوزر/باسورد/هاتف/MAC. صور الفايبر: وضّح المسار والانحناءات والتوصيلات ووضع ONT والتهوية — ⚠️ لا تنظر لنهاية الفايبر (ليزر غير مرئي).
 
